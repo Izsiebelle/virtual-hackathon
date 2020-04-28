@@ -21,11 +21,14 @@
     justify-content: center;
     text-align: center;
     border-bottom: 5px solid #ccb0a2;
-    background-image: url('../images/header-background.png');
+    background:url('../images/sunrise4.jpeg')no-repeat 0% 100%;
+    background-size: cover;
   }
   
   .header h1 {
-    font-size: 70px;
+    font-size: 80px;
+    font-family: var(--KGAllofMe);
+    letter-spacing: 0.07em;
     line-height: normal;
     text-align: center;
     padding-top: 70px;
