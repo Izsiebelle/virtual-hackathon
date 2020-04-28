@@ -1,6 +1,31 @@
 /* @font-face */
 
 @font-face {
+    font-family: "Athene";
+    src: url(../fonts/Athene.otf);
+}
+
+@font-face {
     font-family: "KGAllofMe";
     src: url(../fonts/KGAllofMe.ttf);
+}
+
+@font-face {
+    font-family: "KGBeneath";
+    src: url(../fonts/KGBeneathYourBeautiful.ttf);
+}
+
+@font-face {
+    font-family: "KGBeneathBold";
+    src: url(../fonts/KGBeneathYourBeautifulChunk.ttf);
+}
+
+@font-face {
+    font-family: "KGEyes";
+    src: url(../fonts/KGEyesWideOpen.ttf);
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-Regular.ttf);
 }
