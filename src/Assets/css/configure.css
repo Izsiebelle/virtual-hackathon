@@ -1,0 +1,12 @@
+.App {
+    text-align: center;
+  }
+  
+.Menu {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.upper-case {
+    text-transform: uppercase;
+  }

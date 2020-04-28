@@ -1,13 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import './Assets/css/configure.css';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello, World!</h1>
-    </div>
-  );
+//components 
+import Menu from './components/menuComponent/menu';
+import Fun from './components/funComponent/fun';
+import Learn from './components/learnComponent/learn';
+import Schedule from './components/scheduleComponent/schedule';
+
+
+
+class App extends React.Component {
+  render() {
+    return (
+      <Router>
+        <div className="App">
+          <Menu />
+          <Route exact path="/schedule" component={Schedule} />
+          <Route exact path="/learn" component={Learn} />
+          <Route exact path="/fun" component={Fun} />
+        </div>
+      </Router>
+    );
+  }
 }
 
 export default App;
