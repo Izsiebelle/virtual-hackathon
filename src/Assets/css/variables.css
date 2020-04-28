@@ -8,13 +8,12 @@ html, body {
 /* CSS Variables */
 
 :root{
-    --primary-color: #4E726B; 
-    --primary-color2: #C69661;;
-    --title-color: #AB6455;
-    --text-color: #1B2E39;
-    --border-color:#ADBCB9;
-    --icon-color: #AB6455;
-    --gradient-color: linear-gradient(90deg,#ADBCB9  0%, #4E726B 100%);
+    --primary-color: #B8C4C6; 
+    --secondary-color: #F3A972;;
+    --title-color: #CD9896;
+    --text-color: #154D59;
+    --border-color:#EAEAE5;
+    --gradient-color: linear-gradient(90deg,#FBB865  0%, #C36D41 100%);
     --shadow-color: 0px 10px 30px #AB6455;
     --box-shadow: 0px 10px 30px #ccb0a2;
 
