@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.upper-case {
+    text-transform: uppercase;
+  }
+
+  .font-KGAll{
+    font-family: var(--KGAllofMe);
+}
+
+/* Menu Area */
+.button {
+  padding: .8rem 2.2rem;
+  font: normal 500 16px/20px var(--KGAllofMe);
+  position: relative;
+  border: 3px solid white;
+  border-radius: 4px;
+}
+
+.button.primary-button {
+  background: var(--gradient-color);
+  background-clip: padding-box;
+  color: whitesmoke;
+  transition: all 0.6s ease;
+  box-shadow: var(--box-shadow);
+}
+
+.button.primary-button:hover{
+  background: whitesmoke;
+  background-clip: padding-box;
+  color:var(--primary-color);
+}

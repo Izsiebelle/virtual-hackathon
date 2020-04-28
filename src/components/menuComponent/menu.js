@@ -6,9 +6,9 @@ class Menu extends React.Component {
         return (
             <div className="Menu">
             <div className="btn-group btn-group-lg" role="group" aria-label="Basic example">
-                <Link to="/schedule" ><button type="button" className="btn upper-case">Schedule</button></Link>
-                <Link to="/learn"><button type="button" className="btn upper-case">Learn</button></Link>
-                <Link to="/fun"><button type="button" className="btn upper-case">Fun</button></Link>
+                <Link  to="/schedule" className="btn button"><button type="button" className="button primary-button upper-case">Schedule</button></Link>
+                <Link to="/learn" className="btn button"><button type="button" className="button primary-button upper-case">Learn</button></Link>
+                <Link to="/fun" className="btn button"><button type="button" className="button primary-button upper-case">Fun</button></Link>
             </div>
             </div>
         );

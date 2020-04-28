@@ -1,0 +1,38 @@
+/* Import fonts */
+@import url('./fonts.css');
+
+/* Import global css */
+@import url('./global.css');
+
+/* import variables */
+@import url('./variables.css');
+
+.App {
+    text-align: center;
+  }
+  
+.Menu {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 5px solid #ccb0a2;
+    background-image: url('../images/header-background.png');
+  }
+  
+  .header h1 {
+    font-size: 70px;
+    line-height: normal;
+    text-align: center;
+    padding-top: 70px;
+    color: white;
+  }
+  
+  .logo {
+    margin-right: 200px; 
+  }
+  
