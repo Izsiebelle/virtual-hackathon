@@ -32,5 +32,17 @@
 .button.primary-button:hover{
   background: whitesmoke;
   background-clip: padding-box;
-  color:var(--primary-color);
+  color:var(--secondary-color);
+}
+
+.button.primary-button::after{
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  bottom:-2px;
+  right: -2px;
+  background: var(--gradient-color);
+  content: '';
+  z-index: -1;
+  border-radius: 4px;
 }
