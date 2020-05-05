@@ -1,0 +1,56 @@
+.Skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 16.66rem;
+    margin: 0 .5rem 2.3rem .5rem;
+  }
+  
+  .Skill .image-container {
+    height: 16.66rem;
+    margin-bottom: 1rem;
+  }
+  
+  .Skill h2 {
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: var(--KGAllofMe);
+    color: #AB6455;
+  }
+  
+  .Skill-information {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .Skill-information p {
+    font-size: .88rem;
+    font-weight: 300;
+    line-height: 1rem;
+  }
+  
+  .Skill-address {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .Skill-description {
+    color: var(--text-color);
+  }
+  
+  .Skill-section {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .Skill-section h3 {
+    color: #CCA353;
+    font-weight: 600;
+    font-size: .88rem;
+    line-height: 1rem;
+    font-family: var(--KGAllofMe);
+  }
+  
