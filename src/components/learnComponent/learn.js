@@ -23,10 +23,14 @@ const skill = {
   ]
 
 class Learn extends React.Component {
+    searchTerm(term, sortBy) {
+        console.log(`You are seaching for ${term} and ${sortBy}`);
+    } 
+
     render() {
         return (
             <div className="Learn">
-                <SearchBar />
+                <SearchBar searchTerm={this.searchTerm}/>
                 <SkillsList skills={skills}/> 
             </div>
         );

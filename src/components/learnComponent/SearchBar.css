@@ -69,7 +69,7 @@
     margin: 0 40rem;
 }
 
-  /* .SearchBar-submit {
+  .SearchBar-submit {
     text-align: center;
   }
   
@@ -85,7 +85,7 @@
   .SearchBar-submit a:hover {
     cursor: pointer;
     background-color: #a7874b;
-  } */
+  }
   
   @media only screen and (max-width: 560px) {
     .SearchBar {
